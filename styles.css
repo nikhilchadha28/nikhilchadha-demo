@@ -26,6 +26,25 @@ section {
     width: 150px;
     text-align: center;
 }
+
+.buy-btn {
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
 .price {
     color: green;
 }
