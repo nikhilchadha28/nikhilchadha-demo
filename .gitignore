@@ -1,0 +1,20 @@
+# Python cache directories and compiled files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Node modules
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor backups and swap files
+*.swp
+*~
+
+# macOS files
+.DS_Store
