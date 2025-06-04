@@ -9,8 +9,12 @@ function renderProducts() {
     products.forEach(p => {
         const div = document.createElement('div');
         div.className = 'product';
+
         div.innerHTML = `<h3>${p.name}</h3><p class="price">${p.price}</p>` +
             `<button class="buy-btn" onclick="alert('Added to cart!')">Buy</button>`;
+
+        div.innerHTML = `<h3>${p.name}</h3><p class="price">${p.price}</p>`;
+
         container.appendChild(div);
     });
 }

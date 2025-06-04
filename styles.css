@@ -26,6 +26,7 @@ section {
     width: 150px;
     text-align: center;
 }
+
 .buy-btn {
     margin-top: 0.5rem;
     padding: 0.25rem 0.5rem;
@@ -43,6 +44,7 @@ section {
     border: none;
     cursor: pointer;
 }
+
 .price {
     color: green;
 }
